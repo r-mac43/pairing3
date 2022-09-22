@@ -5,3 +5,10 @@ for (var i=0; i < numbers.length; i++) {
     console.log(numbers[i]);
   }
 }
+numbers = [5, 22, 32, 74, 77, 79, 83, 99]
+
+for (var i=0; i < numbers.length; i++) {
+  if (numbers[i] > 60) {
+    console.log(numbers[i]);
+  }
+}
